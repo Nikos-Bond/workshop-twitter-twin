@@ -1,1 +1,3 @@
 node_modules/**/*
+/app/libs/bootstrap/css/*.css.map
+/app/libs/bootstrap/js/*.js.map

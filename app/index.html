@@ -2,10 +2,138 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<!-- Fonts -->
+ 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,400i&amp;subset=cyrillic-ext" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+
 	<title>Twitter-twin-workshop</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<h5>Project</h5>
+	<div class="container-fluid">
+		<div class="row">
+			<!-- nav column -->
+			<div class="col-md-6">
+				<div class="nav p-1">
+					<li class="nav-item ml-3">
+						<a href="/home" class="nav-link">
+						<i class="fas fa-home mr-1"></i>Home</a>
+					</li>
+					<li class="nav-item ml-3">
+						<a href="/notifications" class="nav-link">
+						<i class="fas fa-bell mr-1"></i>Notifications</a>
+					</li>
+					<li class="nav-item ml-3">
+						<a href="/messages" class="nav-link">
+						<i class="fas fa-envelope mr-1"></i>Messages
+						</a>
+					</li>
+				</div>
+			</div>
+			<div class="col-md m-2">
+				<a href="/home" class="nav-link">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</div>
+			<div class="col-md-4 mt-2">
+				<form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			      <button class="btn btn-outline-dark my-2 my-sm-0 search" type="submit">Search</button>
+			    </form>
+			</div>
+		</div>
+		<div class="row">
+			<!-- left column -->
+			<div class="col-md-4 mb-3">
+				<div class="card">
+					<div class="profile-background"></div>
+					<div class="profile-avatar">
+						<img src="img/i_am.jpg" alt="Nikita Bondarchuk">
+					</div>
+					<div class="card-body">
+						<h2 class="profile-title">Nikita Bondarchuk</h2>
+						<div class="profile-description">
+							<p>Write about my life, work and achievements xD</p>
+						</div>
+						
+						<ul class="stats">
+							<li class="stats-item">
+								<b class="stats-title">Tweets</b>
+								<b class="stats-count">57</b>
+							</li>
+							<li class="stats-item">
+								<b class="stats-title">Following</b>
+								<b class="stats-count">50</b>
+							</li>
+							<li class="stats-item">
+								<b class="stats-title">Followers</b>
+								<b class="stats-count">1235</b>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- right column -->
+			<div class="col-md-8">
+				<div class="card mb-3">
+					<div class="card-body">
+						<form>
+						  <div class="form-group">
+						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="What's happening?">
+						  </div>
+						  <button type="submit" class="btn btn-outline-dark float-right">Tweet</button>
+						</form>
+					</div>
+				</div>
+				<div class="card tweet-card tweet-card-rouded-top">
+					<div class="h4 mb-0">Users tweet</div>
+				</div>
+
+				<!-- single tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-date">08 july 2018</div>
+					<div class="tweet-text">
+						<p>It's the best social network i seen</p>
+					</div>
+				</div>
+				<!-- /single tweet -->
+
+				<!-- single tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-date">05 october 2017</div>
+					<div class="tweet-text">
+						<p>Yeappy! I was hired at twitter!!!</p>
+					</div>
+				</div>
+				<!-- /single tweet -->
+
+				<!-- single tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-date">27 august 2017</div>
+					<div class="tweet-text">
+						<p>My first steps in tweeting. Never mind</p>
+					</div>
+				</div>
+				<!-- /single tweet -->
+			</div>
+		</div>
+	</div>
+
+	<!-- copyright -->
+	<footer class="footer">
+		<p class="footer-copyright">
+			&copy; Nikita Bondarchuk 2018 </br>
+		</p>
+		Template with Twitter <i class="fab fa-twitter"></i> in 2018 year
+	</footer>
+	<!-- Optional JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

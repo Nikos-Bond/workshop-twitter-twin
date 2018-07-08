@@ -1,8 +1,127 @@
 body {
-  background-color: #BABFBC;
-  font-family: sans-serif;
+  background-color: #243447;
+  font-family: 'Noto Sans', sans-serif;
+  color: #8899a6;
 }
-h1 {
-  font-size: 32px;
-  color: #000;
+.profile-background {
+  height: 120px;
+  background-image: url(../img/backhphoto.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.profile-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 5px solid #243447;
+  background: #243447;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profile-avatar img {
+  max-width: 100%;
+  height: auto;
+}
+.profile-title {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+.profile-description {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  text-align: center;
+}
+.stats {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.stats-item {
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.stats-title {
+  font-size: 14px;
+  color: #8899a6;
+}
+.stats-count {
+  color: #1DA1F2;
+  font-size: 22px;
+  font-weight: 600;
+}
+.tweet-card {
+  padding: 1.25rem;
+  border-right: 0;
+  border-bottom: 0px;
+}
+.tweet-card:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.tweet-card:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.tweet-card-rouded-top {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.tweet-date {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.tweet-text p {
+  margin: 0;
+  font-size: 20px;
+}
+.font-size-small p {
+  font-size: 16px;
+}
+.font-size-normal p {
+  font-size: 18px;
+}
+.font-size-large p {
+  font-size: 20px;
+}
+.footer {
+  text-align: center;
+  font-weight: 800;
+}
+.footer a {
+  color: #25a5bf;
+  padding-bottom: 16px;
+}
+.footer .fa-twitter {
+  color: #007bff;
+}
+.nav > li > a {
+  color: #8899a6;
+}
+.nav > li > a:hover {
+  color: #CC3366;
+}
+.search {
+  color: #8899a6;
+}
+.btn:hover {
+  color: #CC3366 !important;
+}
+.card {
+  background: #1b2836;
 }

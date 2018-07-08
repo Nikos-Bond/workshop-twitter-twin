@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
     "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
     "gulp-less": "^3.5.0",
