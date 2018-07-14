@@ -64,7 +64,7 @@
 						<ul class="stats">
 							<li class="stats-item">
 								<b class="stats-title">Tweets</b>
-								<b class="stats-count">57</b>
+								<b class="stats-count" id="tweetCount">57</b>
 							</li>
 							<li class="stats-item">
 								<b class="stats-title">Following</b>
@@ -82,44 +82,25 @@
 			<div class="col-md-8">
 				<div class="card mb-3">
 					<div class="card-body">
-						<form>
+						<form id="postNewTweet">
 						  <div class="form-group">
-						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="What's happening?">
+						    <input type="text" class="form-control" id="TweetText" placeholder="What's happening?">
 						  </div>
-						  <button type="submit" class="btn btn-outline-dark float-right">Tweet</button>
+						  <button type="submit" class="btn btn-outline-dark float-right tweet-button">Tweet</button>
 						</form>
 					</div>
 				</div>
-				<div class="card tweet-card tweet-card-rouded-top">
+				<div class="card tweet-card-rouded-top">
 					<div class="h4 mb-0">Users tweet</div>
 				</div>
+				<!-- TweetList -->
+				<div id="tweetList">
 
-				<!-- single tweet -->
-				<div class="card tweet-card">
-					<div class="tweet-date">08 july 2018</div>
-					<div class="tweet-text">
-						<p>It's the best social network i seen</p>
-					</div>
-				</div>
-				<!-- /single tweet -->
+					<!-- single tweet -->
 
-				<!-- single tweet -->
-				<div class="card tweet-card">
-					<div class="tweet-date">05 october 2017</div>
-					<div class="tweet-text">
-						<p>Yeappy! I was hired at twitter!!!</p>
-					</div>
-				</div>
-				<!-- /single tweet -->
+					<!-- /single tweet -->
 
-				<!-- single tweet -->
-				<div class="card tweet-card">
-					<div class="tweet-date">27 august 2017</div>
-					<div class="tweet-text">
-						<p>My first steps in tweeting. Never mind</p>
-					</div>
 				</div>
-				<!-- /single tweet -->
 			</div>
 		</div>
 	</div>
@@ -135,5 +116,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

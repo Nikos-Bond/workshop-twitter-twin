@@ -78,6 +78,11 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0 0 0.25rem 0.25rem;
 }
+.card-title-only {
+  padding: 1.25rem;
+  border-bottom: 0px;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
 .tweet-card-rouded-top {
   border-radius: 0.25rem 0.25rem 0 0;
 }
@@ -98,6 +103,9 @@ body {
 }
 .font-size-large p {
   font-size: 20px;
+}
+.tweet-button {
+  color: #8899a6;
 }
 .footer {
   text-align: center;
